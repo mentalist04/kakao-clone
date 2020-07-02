@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2c036efc0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>chating_kakao clone</title>
+  </head>
+  <body>
+    <div class="status_bar">
+      <div class="status_bar__column">
+        <span class="status_bar__company">LG U+</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status_bar__column">
+        <span class="status_bar__clock">3:56</span>
+      </div>
+      <div class="status_bar__column">
+        <span class="smtatus_bar__battery">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header_column">
+        <a href="./index.html" class="header_back-btn">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+        <h1 class="header_title">희진누나</h1>
+      </div>
+      <div class="header_column">
+        <span class="header_icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header_icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat_messages">
+        <span class="chat_timestamp">
+          Thursday, July 2 , 2020
+        </span>
+        <li class="incoming_message">
+          <img src="./assets/4200.jpg" class="g-avatar message_avatar" />
+          <div class="message_content">
+            <span class="message_author">
+              희진누나
+            </span>
+            <div class="message_bubble">
+              I love you
+            </div>
+            <span class="message_timestamp"> </span>
+          </div>
+        </li>
+        <li class="incoming_message">
+          <span class="message_timestamp"> </span>
+          <div class="message_content">
+            <div class="message_bubble">
+              I love you
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat_write">
+      <div class="chat_write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat_write-column">
+        <input
+          type="text"
+          placeholder="send messages"
+          class="chat_write-input"
+        />
+      </div>
+      <div class="chat_write-column">
+        <span class="chat_write-icons">
+          <i class="far fa-grin"></i>
+        </span>
+        <span class="chat_write-icons">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
