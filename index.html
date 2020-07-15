@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/2c036efc0d.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat_kakao clone</title>
   </head>
   <body>
@@ -48,21 +48,25 @@
       <ul class="chat_list">
         <li class="chat_chat">
           <a href="./chat.html">
-            <div class="chat_column">
-              <img class="chat_avatar g-avatar" src="./assets/4200.jpg" />
-              <div class="chat_content">
-                <span class="chat_username">
-                  희진누나
-                </span>
-                <span class="chat_preview">
-                  지금 신도림!!!
+            <div class="friends_friend--large">
+              <div class="friend_column">
+                <img src="./assets/4200.jpg" class="m-avatar friend_avatar" />
+                <div class="friend_content">
+                  <span class="friend_name">
+                    희진누나
+                  </span>
+                  <span class="friend_bottom-text">
+                    지금 신도림!
+                  </span>
+                </div>
+              </div>
+              <div class="friend_column">
+                <span class="chat_timestamp">
+                  1:38
                 </span>
               </div>
             </div>
           </a>
-          <div class="chat_column">
-            <span class="chat_timestamp">1:38</span>
-          </div>
         </li>
       </ul>
     </main>
@@ -75,6 +79,7 @@
         </li>
         <li class="nav_list_items">
           <a href="index.html" class="nav_list_link">
+            <div class="nav_badge">113</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>

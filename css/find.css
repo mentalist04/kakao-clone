@@ -1,0 +1,37 @@
+.find_header-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find_header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-btn_icon {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.header-btn_title {
+  font-size: 14px;
+}
+
+.find_recommended {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px #1b1b1c solid;
+}
+
+.find_title {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.find_friend--large {
+  display: flex;
+  justify-content: space-between;
+}

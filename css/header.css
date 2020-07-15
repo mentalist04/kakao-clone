@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header_icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header_column {
+  display: flex;
+  align-items: center;
+}
+
+.header_back-btn {
+  font-size: 22px;
+  margin-right: 15px;
+}

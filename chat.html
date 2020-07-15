@@ -7,40 +7,44 @@
       src="https://kit.fontawesome.com/2c036efc0d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>chating_kakao clone</title>
   </head>
-  <body>
-    <div class="status_bar">
-      <div class="status_bar__column">
-        <span class="status_bar__company">LG U+</span>
-        <i class="fas fa-wifi"></i>
+
+  <body class="chats-body">
+    <div class="header_wrapper">
+      <div class="status_bar">
+        <div class="status_bar__column">
+          <span class="status_bar__company">LG U+</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status_bar__column">
+          <span class="status_bar__clock">3:56</span>
+        </div>
+        <div class="status_bar__column">
+          <span class="smtatus_bar__battery">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status_bar__column">
-        <span class="status_bar__clock">3:56</span>
-      </div>
-      <div class="status_bar__column">
-        <span class="smtatus_bar__battery">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header_column">
+          <a href="./index.html" class="header_back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header_title">희진누나</h1>
+        </div>
+        <div class="header_column">
+          <span class="header_icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header_icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </div>
 
-    <header class="header">
-      <div class="header_column">
-        <a href="./index.html" class="header_back-btn">
-          <i class="fas fa-arrow-left fa-2x"></i>
-        </a>
-        <h1 class="header_title">희진누나</h1>
-      </div>
-      <div class="header_column">
-        <span class="header_icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header_icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat_messages">
         <span class="chat_timestamp">
           Thursday, July 2 , 2020
@@ -57,7 +61,7 @@
             <span class="message_timestamp"> </span>
           </div>
         </li>
-        <li class="incoming_message">
+        <li class="sent_message">
           <span class="message_timestamp"> </span>
           <div class="message_content">
             <div class="message_bubble">
@@ -67,18 +71,15 @@
         </li>
       </ul>
     </main>
-    <div class="chat_write">
-      <div class="chat_write-column">
-        <i class="far fa-plus-square"></i>
+    <div class="chat_write-container">
+      <input type="text" placeholder="send messages" class="chat_write" />
+      <div class="chat_icon-left chat_icon">
+        <span class="chat_write-icons">
+          <i class="far fa-plus-square"></i>
+        </span>
       </div>
-      <div class="chat_write-column">
-        <input
-          type="text"
-          placeholder="send messages"
-          class="chat_write-input"
-        />
-      </div>
-      <div class="chat_write-column">
+
+      <div class="chat_icon-right chat_icon">
         <span class="chat_write-icons">
           <i class="far fa-grin"></i>
         </span>

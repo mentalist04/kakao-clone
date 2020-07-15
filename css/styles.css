@@ -1,0 +1,41 @@
+@import "reset.css";
+@import "status-bar.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&display=swap");
+@import "header.css";
+@import "nav-bar.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  color: #f2f2f2;
+  padding: 10px 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadein 0.5s ease-in-out;
+}
